@@ -19,7 +19,6 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
 
 ## This function will return solve matrix from a cached matrix
 
