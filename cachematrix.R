@@ -1,7 +1,13 @@
 ## This code is making a cache matrix which is cache 
 ## The matrix and it's inverse matrix
 
+
 ## Make cache matrix to store a matrix and it's Inverse matrix
+
+# set:  will store a matrix
+# get:  will return stored matrix
+#setInv:will set Inverted matrix
+#getInv:will return inverted matrix
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- matrix(nrow=dim(x)[1],ncol=dim(x)[2])
